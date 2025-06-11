@@ -1,0 +1,7 @@
+pandas
+numpy
+black
+scikit-learn
+matplotlib
+scikit-optimize
+joblib
