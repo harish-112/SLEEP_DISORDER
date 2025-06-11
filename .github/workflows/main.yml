@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: 📥 Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       - name: 🐍 Set up Python
         uses: actions/setup-python@v4
@@ -32,7 +32,7 @@ jobs:
         run: python sleep_pipeline.py
 
       - name: 📤 Upload results and model
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: sleep-disorder-artifacts
           path: |
